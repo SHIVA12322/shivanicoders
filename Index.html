@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+   <style>
+  *{
+    margin:0px;
+    padding: 0px;
+  }
+  #main{
+    display:grid;
+    gap: 20px;
+  }
+  header {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background: #e3f2fd;
+      padding: 15px;
+      font-size: 20px;
+      text-align: center;
+      padding: 30px;
+    }
+  main{
+    display: grid;
+    grid-template-columns: 2fr 2fr 5fr;
+    gap: 10px;
+  }
+  .main,.content,.other{
+    text-align: center;
+    background-color: azure;
+    padding: 20px;
+
+  }
+   footer{
+    display: flex;
+    align-items: center;
+    background-color: green;
+  text-align: center;
+    padding: 50px;
+    font-size: 30px;
+  }
+  </style>
+</head>
+<body>
+    <div id="main">
+        <header>Header</header>
+      <main>
+        <div class="main"> main <img src="b1.png" alt="image"></div>
+      <div class="content">Content<p>
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nobis.
+      </p></div>
+      <div class="other">Other Links<a href="https://www.chatgpt.com" target="_blank"> <br/>Visit Google</a></div>
+    </main>
+
+        <footer>
+            footer
+        </footer>
+    </div>
+    
+</body>
+</html>
